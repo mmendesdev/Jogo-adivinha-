@@ -11,7 +11,7 @@ function exibirTextoNaTela(tag, texto){
 
 function exibirMensagemInicial(){
      exibirTextoNaTela('h1', 'Seja bem-vindo ao jogo do Mendes');
-     exibirTextoNaTela('p', 'Digite um na 10: ');
+     exibirTextoNaTela('p', 'Digite um número de 1 à 10: ');
 }
 exibirMensagemInicial();
 function verificarChute() {
